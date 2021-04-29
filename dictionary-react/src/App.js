@@ -1,5 +1,6 @@
 import logo from './pandaLogo.png';
 import './App.css';
+import Dictionary from './Dictionary';
 
 function App() {
   return (
@@ -7,22 +8,19 @@ function App() {
       <header className="App-header">
      
         <p className="Title">
-          Dictionary
-        </p>
-        <div class="input-group rounded">
-  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-    aria-describedby="search-addon" />
-  <span class="input-group-text border-0" id="search-addon">
-    <i class="fas fa-search"></i>
-  </span>
-</div>
+         My awesome dictionary
           <img src={logo} alt="logo"/>
-
+           </p>
       </header>
-      
+      <main>
+        <Dictionary />
+      </main>
+      <footer>
+        <small>
+        Coded by <a href="https://github.com/elenagmadejon/dictionary-react-she-codes.git" alt="blank"> Elena Guerrero </a>
+        </small>
+      </footer>
     </div>
-  
-    
   );
 }
 

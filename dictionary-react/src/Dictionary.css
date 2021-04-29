@@ -1,0 +1,10 @@
+.Dictionary {
+  width: 60%;
+  display: block;
+  padding: 60px;
+}
+
+#search-box {
+  border-color: #305f79;
+  border-radius: 25px;
+}
